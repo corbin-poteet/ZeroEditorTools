@@ -26,7 +26,7 @@ Drop an LVL file into the Content Browser to import textured meshes, advanced ma
 
 - **Landscape mode:** Imports SWBF terrain as `ALandscape` with heightmap conversion, layered material (LandscapeLayerBlend), painted weightmaps, and per-layer `ULandscapeLayerInfoObject` assets
 - **StaticMesh mode:** Imports terrain as a `UStaticMesh` using the FMeshDescription pipeline
-- Import mode configurable per-project in Project Settings
+- Import mode configurable in Editor Settings
 
 ### World Layout
 
@@ -72,7 +72,7 @@ Drop an LVL file into the Content Browser to import textured meshes, advanced ma
 
 ### Settings
 
-- Import mode (Landscape vs StaticMesh for terrain) configurable via `Edit > Project Settings > ZeroEditorTools`
+- Import mode (Landscape vs StaticMesh for terrain) configurable via `Edit > Editor Settings > ZeroEditorTools`
 - Settings persist per-project via `UDeveloperSettings`
 
 ---
@@ -126,7 +126,7 @@ Two methods are supported:
 
 ### Configuring Import Mode
 
-A few configuration settings exist in `Edit > Project Settings > Plugins > ZeroEditorTools`
+A few configuration settings exist in `Edit > Editor Settings > Plugins > ZeroEditorTools`
 
 ---
 
