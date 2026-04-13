@@ -84,9 +84,9 @@ Drop an LVL file into the Content Browser to import textured meshes, advanced ma
 - All dependencies are vendored so no external installs required
 
 **Vendored dependencies:**
-- [LibSWBF2](https://github.com/LibSWBF2/LibSWBF2) — C++ library for reading SWBF munged files
-- [glm](https://github.com/g-truc/glm) — Math library (included with LibSWBF2)
-- [fmt](https://github.com/fmtlib/fmt) — Formatting library, header-only mode
+- [LibSWBF2](https://github.com/LibSWBF2/LibSWBF2) - C++ library for reading SWBF munged files
+- [glm](https://github.com/g-truc/glm) - Math library (included with LibSWBF2)
+- [fmt](https://github.com/fmtlib/fmt) - Formatting library, header-only mode
 
 ---
 
@@ -113,13 +113,13 @@ Drop an LVL file into the Content Browser to import textured meshes, advanced ma
 
 Two methods are supported:
 
-**Method 1 — File menu:**
+**Method 1 - File menu:**
 1. In the Unreal Editor, go to `File > Import Into Level...`
 2. Select your munged `.lvl` file
 3. Choose the destination folder in the Content Browser
 4. Click Import
 
-**Method 2 — Drag and drop:**
+**Method 2 - Drag and drop:**
 1. Drag the `.lvl` file directly into the Content Browser
 2. Choose the destination folder in the dialog that appears
 3. Click Import
