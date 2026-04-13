@@ -92,7 +92,7 @@ Drop an LVL file into the Content Browser to import textured meshes, advanced ma
 
 ## Installation
 
-1. Clone or download this repository
+1. Download [the latest release](https://github.com/corbin-poteet/ZeroEditorTools/releases/latest)
 2. Place the `ZeroEditorTools` folder inside your project's `Plugins/` directory:
    ```
    YourProject/
