@@ -1,0 +1,30 @@
+#pragma once
+#include <stdint.h>		// for uint32_t, etc. declarations
+#include <stddef.h>		// for size_t declaration
+
+// UE patch: Allow LIBSWBF2_API to be overridden via compiler defines (Build.cs sets it to empty)
+#ifndef LIBSWBF2_API
+	#ifdef WIN32
+		#ifdef LibSWBF2_EXPORTS
+			#define LIBSWBF2_API __declspec(dllexport)
+		#else
+			#define LIBSWBF2_API __declspec(dllimport)
+		#endif //LIBSWBF2_EXPORTS
+	#else
+		#define LIBSWBF2_API __attribute__((visibility("default")))
+	#endif //_WIN32
+#endif
+
+
+namespace LibSWBF2
+{
+	// only reason for a ChunkSize definition here is so we
+	// can easily change the type to uin64_t if ever necessary
+	typedef uint32_t ChunkSize;
+
+	typedef uint32_t CRCChecksum;
+	typedef uint32_t FNVHash;
+
+	typedef uint16_t Handle;
+	#define SWBF2HANDLE_INVALID 0xffff
+}

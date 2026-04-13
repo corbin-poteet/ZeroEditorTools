@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Zero Editor Tools",
+	"Description": "A suite of tools and utilities for importing assets from munged Zero Engine game files.",
+	"Category": "Other",
+	"CreatedBy": "Corbin Poteet",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ZeroEditorTools",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
