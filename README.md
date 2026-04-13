@@ -1,4 +1,4 @@
-# ZeroEditorTools
+# Zero Editor Tools
 
 An Unreal Engine 5.7 editor plugin that imports Star Wars: Battlefront (2004) and Star Wars: Battlefront II (2005) munged LVL files into native UE assets.
 
