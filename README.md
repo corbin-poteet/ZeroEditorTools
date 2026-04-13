@@ -2,7 +2,7 @@
 
 An Unreal Engine 5.7 editor plugin that imports Star Wars: Battlefront (2004) and Star Wars: Battlefront II (2005) munged LVL files into native UE assets.
 
-Drop an LVL file into the Content Browser and get textured meshes, advanced material instances, terrain, world layout actors, lighting, regions, skydome geometry, barriers, hint nodes, and per-asset SWBF metadata — all organized and ready to use.
+Drop an LVL file into the Content Browser to import textured meshes, advanced material instances, terrain, world layout actors, lighting, regions, skydome geometry, barriers, hint nodes, and per-asset SWBF metadata.
 
 ---
 
